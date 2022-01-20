@@ -9,7 +9,6 @@
     <Content Remove="wwwroot\css\" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\lib\" />
-    <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\img\" />
   </ItemGroup>
   <ItemGroup>
@@ -18,8 +17,5 @@
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\img\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wwwroot\index.html" />
   </ItemGroup>
 </Project>

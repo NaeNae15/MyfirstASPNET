@@ -20,6 +20,12 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+image {
+    width: 30px;
+    height: auto;
+    position: center;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;

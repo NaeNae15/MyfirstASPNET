@@ -23,10 +23,19 @@ namespace MyfirstASPNETwebapp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult gradeCalc()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult gradeCalc(gradeCalcModel model)
+        {
+            return View(
+                );
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

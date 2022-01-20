@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{0EC5C084-B614-4E24-842E-4A8755D3434C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyfirstASPNETwebapp/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="MyfirstASPNETwebapp/Views/Home/gradeCalc.cshtml" Line="24" Column="1" />
+      <File FileName="MyfirstASPNETwebapp/Controllers/HomeController.cs" Line="24" Column="10" />
+      <File FileName="MyfirstASPNETwebapp/Models/calculator.cs" Line="16" Column="25" />
+      <File FileName="MyfirstASPNETwebapp/wwwroot/js/calc.js" Line="11" Column="21" />
+      <File FileName="MyfirstASPNETwebapp/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="MyfirstASPNETwebapp/Views/Shared/_Layout.cshtml" Line="41" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyfirstASPNETwebapp" expanded="True">
+            <Node name="MyfirstASPNETwebapp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyfirstASPNETwebapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

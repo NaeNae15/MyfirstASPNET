@@ -1,4 +1,4 @@
-﻿$("#btnSend").click(function () {
+﻿$("#btnSend").submit(function () {
     var int1 = parseInt($("#assignments").val(),10)
     var int2 = parseInt($("#quiz").val(),10);
     var int3 = parseInt($("#intex").val(), 10);
@@ -20,8 +20,7 @@
         grade = "F";
     
 
-
+    (#)
     alert("Your final percentage is : " + avg.toFixed(2) + "%." + "\n"
         + "Your final grade would be: " + grade);
-
 })

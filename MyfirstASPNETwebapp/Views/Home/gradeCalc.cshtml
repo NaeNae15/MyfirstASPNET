@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Grade Calculation";
+}
+
+@model gradeCalcModel;
+
+<body>
+    <h2 class="heading">Welcome to the calculator page</h2>
+    <h2 style="font-style:oblique">Enter your grade percentages into this grade calculator (e.i. 94)</h2>
+    <form method="post">
+        <label>Assignments: </label>
+        <input type="number" id="assignments" asp-for="Assignments" /> <br />
+        <label>Quizes:</label>
+        <input type="number" id="quiz" asp-for="Quizes" /><br />
+        <label>Intex:</label>
+        <input type="number" id="intex" asp-for="Intex" /><br />
+        <label>Exta Credit: </label>
+        <textarea id="extraCredit" type="number" rows="4" asp-for="Extra"></textarea><br />
+        <input id="btnSend" type="submit" value="Send Message" />
+    </form>
+
+
+    <div asp-validation-summary="All"></div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/calc.js"></script>
+
+</body>
